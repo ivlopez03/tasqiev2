@@ -12,6 +12,7 @@ import {
 } from "@heroicons/react/24/outline"
 import  HomeIcon from '@/icons/HomeIcon'
 import RoutineIcon from "@/icons/RoutineIcon"
+import { Link } from "react-router-dom"
 
 
 function Sidebar(){
@@ -32,34 +33,34 @@ function Sidebar(){
             <div className=" mt-4">
                 <div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/home`} className="p-2 flex items-center">
-                        <HomeIcon/>
-                        <span className=" ml-2 text-sm">Home</span>
-                        </a>
+                        <Link to={`/home`} className="p-2 flex items-center">
+                            <HomeIcon/>
+                            <span className=" ml-2 text-sm">Home</span>
+                        </Link>
                     </div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/myideas`} className="p-2 flex items-center">
-                        <RocketLaunchIcon className="w-4 h-4" strokeWidth={1}/>
+                        <Link to={`/myideas`} className="p-2 flex items-center">
+                            <RocketLaunchIcon className="w-4 h-4" strokeWidth={1}/>
                         <span className=" ml-2 text-sm">My ideas</span>
-                        </a>
+                        </Link>
                     </div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/myproductivity`} className="p-2 flex items-center">
-                        <ChartBarSquareIcon className="w-4 " strokeWidth={1} />
-                        <span className=" ml-2 text-sm">My productivity</span>
-                        </a>
+                        <Link to={`/myproductivity`} className="p-2 flex items-center">
+                            <ChartBarSquareIcon className="w-4 " strokeWidth={1} />
+                            <span className=" ml-2 text-sm">My productivity</span>
+                        </Link>
                     </div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/routines`} className="p-2 flex items-center">
-                        <RoutineIcon/>
-                        <span className=" ml-2 text-sm">Routines</span>
-                        </a>
+                        <Link to={`/routines`} className="p-2 flex items-center">
+                            <RoutineIcon/>
+                            <span className=" ml-2 text-sm">Routines</span>
+                        </Link>
                     </div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/calendar`} className="p-2 flex items-center">
-                        <CalendarDaysIcon className="w-4 " strokeWidth={1} />
-                        <span className=" ml-2 text-sm">Calendar</span>
-                        </a>
+                        <Link to={`/calendar`} className="p-2 flex items-center">
+                            <CalendarDaysIcon className="w-4 " strokeWidth={1} />
+                            <span className=" ml-2 text-sm">Calendar</span>
+                        </Link>
                     </div>
 
                    
@@ -79,10 +80,10 @@ function Sidebar(){
                         </a>
                     </div>
                     <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                        <a href={`/plan/:create`} className="p-2 flex items-center">
-                        <DocumentTextIcon className="w-4" strokeWidth={1}/>
-                        <span className=" ml-2 text-sm">Create Plan</span>
-                        </a>
+                        <Link to={`/plan/:create`} className="p-2 flex items-center">
+                            <DocumentTextIcon className="w-4" strokeWidth={1}/>
+                            <span className=" ml-2 text-sm">Create Plan</span>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -94,20 +95,20 @@ function Sidebar(){
                 <div className="text-sm overflow-auto h-[80%]  scrollbar">
                     <div className="ml-4">
                         <div  className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                            <a href={`/workspaces`} className="p-2 flex items-center">
+                            <Link to={`/workspaces`} className="p-2 flex items-center">
                                 <div className="border px-[6px] py-[0px] rounded-md group-hover:border-[#3DAF7F]">
                                     <span className=" text-[10px]">W</span>
                                 </div>
                                 <span className=" ml-2 text-sm">Workspace one</span>
-                            </a>
+                            </Link>
                         </div>
                         <div className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
-                            <a href={`/workspaces/workspacetwo`} className="p-2 flex items-center" >
+                            <Link to={`/workspaces/workspacetwo`} className="p-2 flex items-center" >
                                 <div className="border px-[6px] py-[0px] rounded-md group-hover:border-[#3DAF7F]">
                                     <span className=" text-[10px]">W</span>
                                 </div>
                                 <span className=" ml-2 text-sm">Workspace two</span>
-                            </a>
+                            </Link>
                         </div>
                         
                         
