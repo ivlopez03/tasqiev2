@@ -6,13 +6,7 @@ import{
 } from "react-router-dom"
 import App from './App.tsx'
 import './index.css'
-
-const router = createBrowserRouter([
-  {
-    path:"/",
-    element:<App/>,
-  }
-])
+import { router } from './Routes/Routes.tsx'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
