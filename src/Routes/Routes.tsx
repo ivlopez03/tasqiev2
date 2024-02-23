@@ -1,4 +1,5 @@
 import App from "@/App";
+import ErrorPage from "@/error-page";
 import CalendarPage from "@/pages/CalendarPage/CalendarPage";
 import HomePage from "@/pages/HomePage/HomePage";
 import MyideasPage from "@/pages/MyideasPage/MyIdeas";
@@ -12,6 +13,7 @@ export const router = createBrowserRouter([
     {
         path:"/",
         element: <App/>,
+        errorElement: <ErrorPage/>,
         children: [
             { path: "/home", element: <HomePage/> },
             { path: "/myideas", element: <MyideasPage/> },
