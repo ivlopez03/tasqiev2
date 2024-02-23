@@ -4,7 +4,6 @@ import {
 } from "@heroicons/react/16/solid"
 import {
     CalendarDaysIcon,
-    CalendarIcon,
     ChartBarSquareIcon,
     DocumentTextIcon,
     LightBulbIcon,
@@ -12,8 +11,8 @@ import {
     RocketLaunchIcon
 } from "@heroicons/react/24/outline"
 import  HomeIcon from '@/icons/HomeIcon'
-import BrainstormIcon from "@/icons/BrainstormIcon"
 import RoutineIcon from "@/icons/RoutineIcon"
+
 
 function Sidebar(){
     return(
@@ -32,31 +31,31 @@ function Sidebar(){
             </div>
             <div className=" mt-4">
                 <div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <HomeIcon/>
                         <span className=" ml-2 text-sm">Home</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <RocketLaunchIcon className="w-4 h-4" strokeWidth={1}/>
                         <span className=" ml-2 text-sm">My ideas</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <ChartBarSquareIcon className="w-4 " strokeWidth={1} />
                         <span className=" ml-2 text-sm">My productivity</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <RoutineIcon/>
                         <span className=" ml-2 text-sm">Routines</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <CalendarDaysIcon className="w-4 " strokeWidth={1} />
                         <span className=" ml-2 text-sm">Calendar</span>
@@ -67,19 +66,19 @@ function Sidebar(){
                 </div>
                 <div className="mt-4">
                     <hr />
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold mt-2">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold mt-2 rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <LightBulbIcon className="w-4" strokeWidth={1}/>
                         <span className=" ml-2 text-sm">Capture idea</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <PlusCircleIcon className="w-4" strokeWidth={1}/>
                         <span className=" ml-2 text-sm">Create task</span>
                         </a>
                     </div>
-                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                    <div className=" hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                         <a href="" className="p-2 flex items-center">
                         <DocumentTextIcon className="w-4" strokeWidth={1}/>
                         <span className=" ml-2 text-sm">Create Plan</span>
@@ -94,7 +93,7 @@ function Sidebar(){
                 </div>
                 <div className="text-sm overflow-auto h-[80%]  scrollbar">
                     <div className="ml-4">
-                        <div  className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold">
+                        <div  className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
                             <a href="" className="p-2 flex items-center">
                                 <div className="border px-[6px] py-[0px] rounded-md group-hover:border-[#3DAF7F]">
                                     <span className=" text-[10px]">W</span>
@@ -102,8 +101,8 @@ function Sidebar(){
                                 <span className=" ml-2 text-sm">Workspace one</span>
                             </a>
                         </div>
-                        <div className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold ">
-                            <a href="" className="p-2 flex items-center">
+                        <div className="group hover:bg-[#fafafa] hover:text-[#3DAF7F] hover:font-semibold rounded-md">
+                            <a href="" className="p-2 flex items-center" >
                                 <div className="border px-[6px] py-[0px] rounded-md group-hover:border-[#3DAF7F]">
                                     <span className=" text-[10px]">W</span>
                                 </div>
