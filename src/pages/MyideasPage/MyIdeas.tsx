@@ -1,7 +1,9 @@
 import FolderTree from "@/icons/FolderTree"
+import { EllipsisHorizontalIcon, EyeDropperIcon, FaceSmileIcon } from "@heroicons/react/24/solid"
 import { DocumentTextIcon } from "@heroicons/react/24/outline"
 import React from "react"
 import { Link } from "react-router-dom"
+import { ChevronDoubleRightIcon, FolderArrowDownIcon } from "@heroicons/react/16/solid"
 
 interface Props{}
 
@@ -45,13 +47,23 @@ const MyideasPage = (props:Props) => {
                   </div>
                   <div className=" absolute right-0" ><DocumentTextIcon className="w-4 relative top-0.5" strokeWidth={1}/></div>
                 </div>
-                
-                
-                
               </div>
             </section>
+
+
             <section className="  w-full  border rounded-md p-3 ml-1">
-              Hello
+              <div className="relative flex items-center content-between ">
+                
+                <span >Collection / <span className=" font-bold">Collection One</span></span>
+              </div>
+              <hr className="mt-2 mb-2" />
+              <div>
+                <div>
+                  <ChevronDoubleRightIcon className="w-4"/>
+                  <textarea  placeholder="Type here ..."></textarea>
+                </div>
+              </div>
+
             </section>
           </div>
         </div>
