@@ -60,7 +60,7 @@ const MyideasPage = (props:Props) => {
               <div>
                 <div>
                   <ChevronDoubleRightIcon className="w-4"/>
-                  <textarea  placeholder="Type here ..."></textarea>
+                  <textarea  placeholder="Type here ...."></textarea>
                 </div>
               </div>
 
